@@ -1,0 +1,168 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    background-color: #F7F7F7;
+}
+
+.header {
+    background-color: #222222;
+    height: 200px;
+    padding: 16px 0 0 0;
+}
+
+.header-emoji {
+    font-size: 48px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-title {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header-description {
+    color: #CFCFCF;
+    margin: 4px auto;
+    text-align: center;
+    max-width: 384px;
+}
+
+.wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1024px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 32px;
+}
+
+.card {
+    margin-bottom: 24px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: -0px auto 0 auto;
+    background-color: #EBEBEB;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}
+
+.table {
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}
+
+.Select-control {
+    width: 256px;
+    height: 48px;
+}
+
+.Select--single > .Select-control .Select-value, .Select-placeholder {
+    line-height: 48px;
+}
+
+.Select--multi .Select-value-label {
+    line-height: 32px;
+}
+
+.menu-title {
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.plot {
+    margin-bottom: 0px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+    max-width: 1024px;
+    width: 800px;
+    height: 500px;
+}
+
+.plot-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+    height: 500px;
+}
+
+.descriptor {
+    background-color: #EBEBEB;
+    height: auto;
+    padding: 16px 0 12px 0;
+    margin: 10px auto 10px auto;
+}
+
+.menu-descriptor{
+    background-color: #EBEBEB;
+    height: auto;
+    padding: 16px 0 12px 0;
+    margin: 10px auto 10px auto;
+}
+
+.descriptor-title {
+    color: #079A82;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    padding: 0 0 0 10px;
+    margin: 0 auto 10px auto;
+}
+
+.subsection-title {
+    color: #1E90FF;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    padding: 0 0 0 10px;
+    margin: 0 auto 10px auto;
+}
+
+.descriptor-description {
+    color: #222222,
+    font-size: 36px;
+    text-align: left;
+    padding: 0 0 0 10px;
+    margin: 0 auto 5px auto;
+}
+
+.descriptor-description-bold {
+    color: #222222,
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    padding: 0 0 0 10px;
+    margin: 0 auto;
+}
+
+.margin10 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.temp {
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: -0px auto 0 auto;
+    background-color: #EBEBEB;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}
+
+.center-align {
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
